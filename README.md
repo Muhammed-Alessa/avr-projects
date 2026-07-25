@@ -2,7 +2,6 @@
 
 Bare-metal AVR projects from my second-year college study, rebuilt for the **Arduino Uno R3 / ATmega328P**.
 
-These projects follow the learning path of the Arabic book **Simply AVR (ببساطة AVR)** by **Abdallah Ali Abdallah**, but the descriptions and source code in this repository are independently rewritten for the ATmega328P.
 
 The important point is that the **Arduino Uno is only being used as an ATmega328P development board**. The projects do **not** use Arduino functions such as `digitalWrite()`, `pinMode()`, or `Serial.begin()`. They use AVR registers directly with **AVR-GCC**, just like normal AVR development.
 
