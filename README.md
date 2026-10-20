@@ -17,11 +17,6 @@ Project XX - Project Name/
     └── .gitkeep
 ```
 
-After rebuilding a circuit, add your own real photo as:
-
-```text
-images/breadboard.jpg
-```
 
 ## Board Mapping
 
@@ -74,12 +69,6 @@ Projects containing additional `.c` files must compile those files too. For exam
 avr-gcc -mmcu=atmega328p -DF_CPU=16000000UL -Os main.c uart.c -o main.elf
 avr-objcopy -O ihex -R .eeprom main.elf main.hex
 ```
-
-## Source and Attribution
-
-The project sequence is based on *Simply AVR (ببساطة AVR)* by Abdallah Ali Abdallah.
-
-The source book is published under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)**. No book circuit diagrams or long passages are included here. Project descriptions and code were rewritten for the ATmega328P.
 
 ## Projects
 
